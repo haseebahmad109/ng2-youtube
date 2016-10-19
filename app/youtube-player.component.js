@@ -169,9 +169,6 @@ var YoutubePlayerComponent = (function () {
         this.ytPlayer.seekTo(newTime);
         event.preventDefault();
     };
-    YoutubePlayerComponent.prototype.showPlaceholder = function (value) {
-        console.log(value);
-    };
     __decorate([
         core_1.Input(), 
         __metadata('design:type', Boolean)

@@ -101,11 +101,9 @@ var YoutubeService = (function () {
         return this.youtube;
     };
     YoutubeService.prototype.playVideo = function () {
-        console.log("ser: play");
         this.youtube.player.playVideo();
     };
     YoutubeService.prototype.pauseVideo = function () {
-        console.log("ser: pause");
         this.youtube.player.pauseVideo();
     };
     YoutubeService.prototype.muteVideo = function () {
